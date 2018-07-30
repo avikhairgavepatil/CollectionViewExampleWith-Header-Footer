@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB8C46D210F0F9600595B65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8C46C210F0F9600595B65 /* AppDelegate.swift */; };
+		BDB8C46F210F0F9600595B65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8C46E210F0F9600595B65 /* ViewController.swift */; };
+		BDB8C472210F0F9600595B65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB8C470210F0F9600595B65 /* Main.storyboard */; };
+		BDB8C474210F0F9700595B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB8C473210F0F9700595B65 /* Assets.xcassets */; };
+		BDB8C477210F0F9700595B65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB8C475210F0F9700595B65 /* LaunchScreen.storyboard */; };
+		BDB8C484210F0FDC00595B65 /* droid-sans.bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDB8C47F210F0FDC00595B65 /* droid-sans.bold.ttf */; };
+		BDB8C485210F0FDC00595B65 /* DroidSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDB8C480210F0FDC00595B65 /* DroidSans.ttf */; };
+		BDB8C486210F0FDC00595B65 /* DroidSansBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDB8C481210F0FDC00595B65 /* DroidSansBold.ttf */; };
+		BDB8C487210F0FDC00595B65 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDB8C482210F0FDC00595B65 /* fontawesome-webfont.ttf */; };
+		BDB8C488210F0FDC00595B65 /* Pe-icon-7-stroke.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDB8C483210F0FDC00595B65 /* Pe-icon-7-stroke.ttf */; };
+		BDB8C48F210F100600595B65 /* CollectionWithHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8C48A210F100600595B65 /* CollectionWithHeaderViewController.swift */; };
+		BDB8C490210F100600595B65 /* FontCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8C48B210F100600595B65 /* FontCollectionViewCell.swift */; };
+		BDB8C491210F100600595B65 /* FontCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDB8C48C210F100600595B65 /* FontCollectionViewCell.xib */; };
+		BDB8C492210F100600595B65 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8C48D210F100600595B65 /* HeaderCollectionReusableView.swift */; };
+		BDB8C493210F100600595B65 /* HeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDB8C48E210F100600595B65 /* HeaderCollectionReusableView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDB8C469210F0F9600595B65 /* CollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB8C46C210F0F9600595B65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDB8C46E210F0F9600595B65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDB8C471210F0F9600595B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDB8C473210F0F9700595B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB8C476210F0F9700595B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDB8C478210F0F9700595B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB8C47F210F0FDC00595B65 /* droid-sans.bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "droid-sans.bold.ttf"; sourceTree = "<group>"; };
+		BDB8C480210F0FDC00595B65 /* DroidSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSans.ttf; sourceTree = "<group>"; };
+		BDB8C481210F0FDC00595B65 /* DroidSansBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansBold.ttf; sourceTree = "<group>"; };
+		BDB8C482210F0FDC00595B65 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		BDB8C483210F0FDC00595B65 /* Pe-icon-7-stroke.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pe-icon-7-stroke.ttf"; sourceTree = "<group>"; };
+		BDB8C48A210F100600595B65 /* CollectionWithHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionWithHeaderViewController.swift; sourceTree = "<group>"; };
+		BDB8C48B210F100600595B65 /* FontCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontCollectionViewCell.swift; sourceTree = "<group>"; };
+		BDB8C48C210F100600595B65 /* FontCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FontCollectionViewCell.xib; sourceTree = "<group>"; };
+		BDB8C48D210F100600595B65 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		BDB8C48E210F100600595B65 /* HeaderCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB8C466210F0F9600595B65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB8C460210F0F9600595B65 = {
+			isa = PBXGroup;
+			children = (
+				BDB8C46B210F0F9600595B65 /* CollectionViewExample */,
+				BDB8C46A210F0F9600595B65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB8C46A210F0F9600595B65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB8C469210F0F9600595B65 /* CollectionViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB8C46B210F0F9600595B65 /* CollectionViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				BDB8C489210F100600595B65 /* CollectionViewController */,
+				BDB8C47E210F0FDC00595B65 /* Font */,
+				BDB8C46C210F0F9600595B65 /* AppDelegate.swift */,
+				BDB8C46E210F0F9600595B65 /* ViewController.swift */,
+				BDB8C470210F0F9600595B65 /* Main.storyboard */,
+				BDB8C473210F0F9700595B65 /* Assets.xcassets */,
+				BDB8C475210F0F9700595B65 /* LaunchScreen.storyboard */,
+				BDB8C478210F0F9700595B65 /* Info.plist */,
+			);
+			path = CollectionViewExample;
+			sourceTree = "<group>";
+		};
+		BDB8C47E210F0FDC00595B65 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BDB8C47F210F0FDC00595B65 /* droid-sans.bold.ttf */,
+				BDB8C480210F0FDC00595B65 /* DroidSans.ttf */,
+				BDB8C481210F0FDC00595B65 /* DroidSansBold.ttf */,
+				BDB8C482210F0FDC00595B65 /* fontawesome-webfont.ttf */,
+				BDB8C483210F0FDC00595B65 /* Pe-icon-7-stroke.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		BDB8C489210F100600595B65 /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BDB8C48A210F100600595B65 /* CollectionWithHeaderViewController.swift */,
+				BDB8C48B210F100600595B65 /* FontCollectionViewCell.swift */,
+				BDB8C48C210F100600595B65 /* FontCollectionViewCell.xib */,
+				BDB8C48D210F100600595B65 /* HeaderCollectionReusableView.swift */,
+				BDB8C48E210F100600595B65 /* HeaderCollectionReusableView.xib */,
+			);
+			path = CollectionViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB8C468210F0F9600595B65 /* CollectionViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB8C47B210F0F9700595B65 /* Build configuration list for PBXNativeTarget "CollectionViewExample" */;
+			buildPhases = (
+				BDB8C465210F0F9600595B65 /* Sources */,
+				BDB8C466210F0F9600595B65 /* Frameworks */,
+				BDB8C467210F0F9600595B65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionViewExample;
+			productName = CollectionViewExample;
+			productReference = BDB8C469210F0F9600595B65 /* CollectionViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB8C461210F0F9600595B65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "varun daga";
+				TargetAttributes = {
+					BDB8C468210F0F9600595B65 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BDB8C464210F0F9600595B65 /* Build configuration list for PBXProject "CollectionViewExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB8C460210F0F9600595B65;
+			productRefGroup = BDB8C46A210F0F9600595B65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB8C468210F0F9600595B65 /* CollectionViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB8C467210F0F9600595B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB8C477210F0F9700595B65 /* LaunchScreen.storyboard in Resources */,
+				BDB8C474210F0F9700595B65 /* Assets.xcassets in Resources */,
+				BDB8C487210F0FDC00595B65 /* fontawesome-webfont.ttf in Resources */,
+				BDB8C485210F0FDC00595B65 /* DroidSans.ttf in Resources */,
+				BDB8C488210F0FDC00595B65 /* Pe-icon-7-stroke.ttf in Resources */,
+				BDB8C484210F0FDC00595B65 /* droid-sans.bold.ttf in Resources */,
+				BDB8C493210F100600595B65 /* HeaderCollectionReusableView.xib in Resources */,
+				BDB8C472210F0F9600595B65 /* Main.storyboard in Resources */,
+				BDB8C491210F100600595B65 /* FontCollectionViewCell.xib in Resources */,
+				BDB8C486210F0FDC00595B65 /* DroidSansBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB8C465210F0F9600595B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB8C46F210F0F9600595B65 /* ViewController.swift in Sources */,
+				BDB8C490210F100600595B65 /* FontCollectionViewCell.swift in Sources */,
+				BDB8C46D210F0F9600595B65 /* AppDelegate.swift in Sources */,
+				BDB8C492210F100600595B65 /* HeaderCollectionReusableView.swift in Sources */,
+				BDB8C48F210F100600595B65 /* CollectionWithHeaderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDB8C470210F0F9600595B65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB8C471210F0F9600595B65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDB8C475210F0F9700595B65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB8C476210F0F9700595B65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB8C479210F0F9700595B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDB8C47A210F0F9700595B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB8C47C210F0F9700595B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ARE334SD9C;
+				INFOPLIST_FILE = CollectionViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StockAxis.OpulentInvestment.StockaxisNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "224e2fdd-9846-4efe-ab23-9a04b81d72c7";
+				PROVISIONING_PROFILE_SPECIFIER = TestingStockaxis15_06;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB8C47D210F0F9700595B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ARE334SD9C;
+				INFOPLIST_FILE = CollectionViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StockAxis.OpulentInvestment.StockaxisNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "224e2fdd-9846-4efe-ab23-9a04b81d72c7";
+				PROVISIONING_PROFILE_SPECIFIER = TestingStockaxis15_06;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB8C464210F0F9600595B65 /* Build configuration list for PBXProject "CollectionViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB8C479210F0F9700595B65 /* Debug */,
+				BDB8C47A210F0F9700595B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB8C47B210F0F9700595B65 /* Build configuration list for PBXNativeTarget "CollectionViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB8C47C210F0F9700595B65 /* Debug */,
+				BDB8C47D210F0F9700595B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB8C461210F0F9600595B65 /* Project object */;
+}
